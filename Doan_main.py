@@ -64,6 +64,8 @@ def main():
                 # Input to allow user to select length of the list
                 list_length = range_input("Length of random list: ")
                 if min_num <= max_num:
+                    # To clear old text above
+                    os.system('cls' if os.name == 'nt' else 'clear')
                     # Code to generate list
                     numbers = [random.randint(min_num, max_num) for i in range(list_length)]
                     # Print to show user the unsorted list
@@ -81,6 +83,8 @@ def main():
                 # Input to allow user to select length of the list
                 list_length = range_input("Length of random list: ")
                 if min_num <= max_num:
+                    # To clear old text above
+                    os.system('cls' if os.name == 'nt' else 'clear')
                     # Code to generate list
                     numbers = [random.randint(min_num, max_num) for i in range(list_length)]
                     # Calling on the Bubble Sort Function to sort the list
@@ -97,6 +101,8 @@ def main():
                 # Input to allow user to select length of the list
                 list_length = range_input("Length of random list: ")
                 if min_num <= max_num:
+                    # To clear old text above
+                    os.system('cls' if os.name == 'nt' else 'clear')
                     # Code to generate list
                     numbers = [random.randint(min_num, max_num) for i in range(list_length)]
                     # Calling on the Bubble Sort Function to sort the list
